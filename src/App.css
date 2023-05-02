@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 25px;
+}
+
+.input{
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border-radius: 2px;
+  border: 2px solid blue;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.weather-data{
+  margin-top: 50px;
+  font-size: 50px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.city{
+  margin: 30px;
+  font-weight: 200;
+  font-size: 50px;
+  
+}
+
+.temp{
+  font-size: 80px;
+  padding: 10px;
+  /* border: 2px solid blue;
+  border-radius: 20px; */
+}
+
+.state{
+  font-size: 30px;
+  font-weight: 200;
+  padding: 30px;
+}
+
+body{
+  background-color: rgba(221, 225, 160, 0.863);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  background-image: url("../5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.webp");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
+}
